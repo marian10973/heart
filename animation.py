@@ -1,7 +1,8 @@
-import math
-from turtle import*
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
 
-def heart1(M):
+st.tittle("Heart Drawing")
     return 15*math.sin(M)**3
 
 def heart2(M):
