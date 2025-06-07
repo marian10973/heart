@@ -3,23 +3,22 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 st.tittle("Heart Drawing")
-    return 15*math.sin(M)**3
 
-def heart2(M):
-    return 12*math.cos(M)-5*\
-    math.cos(2*M)-2*\
-    math.cos(3*M)-\
-    math.cos(4*M)
+t = np.linspace(0, 2, * np.pi, 1000)
+x = 15 * np.cos(t) - 5 * np.cos(2 *t) - 2 * np.cos(3*t) -np.sin(4*t)
+y = 13 * np.sin(t) - 5 np.sin(2*t) - 2 * np.sin(3*t) -np.sin(4*t)
 
-speed (0.01)
-bgcolor("black")
+fig, ax = plt.subplots()
+fig.patch.set_facecolor('balack')
+ax.set_facecolor('black')
+ax.plot(x * 10, color='hotpink')
+ax.axist('off')
+ax.set_aspect('equal')
 
-for i in range(1000):
-    goto(heart1(i)*18, heart2(i)*18)
-    for j in range(1):
-        color("pink")
-    goto (0,0)
-done()
+st.pyplot(fig)
 
+st.markdown(
+    "<center><h3 style='color:hotpink; 'made with ❤️ using streamlit</h3></center>"
+    unsafe_allow_html=true
+)
 
-    
