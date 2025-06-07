@@ -6,7 +6,7 @@ st.tittle("Heart Drawing")
 
 t = np.linspace(0, 2, * np.pi, 1000)
 x = 15 * np.cos(t) - 5 * np.cos(2 *t) - 2 * np.cos(3*t) -np.sin(4*t)
-y = 13 * np.sin(t) - 5 np.sin(2*t) - 2 * np.sin(3*t) -np.sin(4*t)
+y = 13 * np.sin(t) - 5 * np.sin(2*t) - 2 * np.sin(3*t) -np.sin(4*t)
 
 fig, ax = plt.subplots()
 fig.patch.set_facecolor('balack')
