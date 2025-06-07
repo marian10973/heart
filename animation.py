@@ -18,7 +18,7 @@ ax.set_aspect('equal')
 st.pyplot(fig)
 
 st.markdown(
-    "<center><h3 style='color:hotpink; 'made with ❤️ using streamlit</h3></center>"
+    "<center><h3 style='color:hotpink; '>made with ❤️ using streamlit</h3></center>"
     unsafe_allow_html=true
 )
 
